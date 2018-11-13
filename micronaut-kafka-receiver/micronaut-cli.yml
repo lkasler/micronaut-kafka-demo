@@ -1,0 +1,5 @@
+profile: kafka
+defaultPackage: com.sbpsystems.kafka.receiver
+---
+testFramework: junit
+sourceLanguage: java

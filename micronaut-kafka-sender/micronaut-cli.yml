@@ -1,0 +1,5 @@
+profile: kafka
+defaultPackage: com.sbpsystems.kafka.sender
+---
+testFramework: junit
+sourceLanguage: java

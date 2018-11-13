@@ -1,0 +1,12 @@
+---
+micronaut:
+    application:
+        name: micronaut-kafka-receiver
+    server:
+        port: 8087
+
+---
+kafka:
+    bootstrap:
+        servers: localhost:9092
+    topic: "my-products"

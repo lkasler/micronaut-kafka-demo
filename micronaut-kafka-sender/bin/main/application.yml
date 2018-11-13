@@ -1,0 +1,12 @@
+---
+micronaut:
+    application:
+        name: micronaut-kafka-sender
+    server:
+        port: 8086
+
+---
+kafka:
+    bootstrap:
+        servers: localhost:9092
+    topic: "my-products"
